@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const server = require("./api/server.js");
 
 // on Heroku, process.env.PORT exists, but we are saying if not, use 4000.

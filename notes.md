@@ -17,6 +17,8 @@ Do one thing really well. Only one reason to change.
 - extract configuration into environment variables.
 - setup Continuous Deployment from Github to Heroku.
   - commit and push to GH and the api gets updated on Heroku.
+  - add a "start" script to `package.json`
+  - make the Port dynamic
 
 ## Switching Remotes
 
